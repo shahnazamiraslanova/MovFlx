@@ -1,0 +1,208 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./assets/imgs/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/cssS/reset.css">
+    <link rel="stylesheet" href="./assets/cssS/style.css">
+    <title>Movies</title>
+    <style>
+        .offcanvas-body-scroll {
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="./index.html">
+                    <img src="https://themehut.co/wp/movflx/wp-content/themes/movflx/assets/img/logo/logo.png" alt="logo">
+
+                </a>                <ul id="navPages">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./movies.html">Movies</a></li>
+                    <li><a href="./comics.html">Comics</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <ul id="navBtns">
+                    <li>
+                        <button class="" type="button" id="openWatchlist">
+                            <i class="fa-solid fa-film"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="" type="button" data-bs-toggle="offcanvas" id="open"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <div id="canvasMenu">
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5>Menu</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close" id="close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul id="navPagesCanvas">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./movies.html">Movies</a></li>
+                            <li><a href="./comics.html">Comics</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="moviesHeader">
+            <div class="container">
+                <h2>Our Movies</h2>
+                <div id="moviesSub">
+                    <span><a href="./index.html">Home</a></span>
+                    <span><a href="./movies.html">Our Movies</a></span>
+                </div>
+            </div>
+        </section>
+        <section id="movies">
+            <div class="container">
+                <div id="moviesFilter">
+                    <input style="z-index: 10; position: relative;" type="text" name="" id="moviesSearch" class="input" placeholder="Search...">
+                </div>
+                <div id="moviesBody"></div>
+                <button id="prevPage"><i class="fa-solid fa-arrow-left"></i></button>
+                <button id="nextPage"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="overlay"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div>
+                <div class="footerHead">
+                    <img src="https://themehut.co/wp/movflx/wp-content/themes/movflx/assets/img/logo/logo.png"
+                        alt="logo">
+                </div>
+                <div class="footerBody">
+                    <p>Movflx Online the relase etras thats sheets continig passag.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> Address : PO Box W75 Street</li>
+                        <li><i class="fa-solid fa-phone"></i> Phone : +24 1245 654 235</li>
+                        <li><i class="fa-solid fa-envelope"></i> Email : info@exemple.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="footerHead">
+                    <h4>Pages</h4>
+                    <span></span>
+                </div>
+                <div class="footerBody">
+                    <ul>
+                        <li> <a href="./index.html">Home</a></li>
+                        <li> <a href="./movies.html">Movies</a></li>
+                        <li><a href="./comics.html">Comics</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="footerHead">
+                    <h4>Recent Posts</h4>
+                    <span></span>
+                </div>
+                <div class="footerBody">
+                    <div>
+                        <img src="https://themehut.co/wp/movflx/wp-content/uploads/2022/08/blog_thumb02.jpg" alt="">
+                        <div class="footerArticle">
+                            <a href="">Where watch English movies free?</a>
+                            <span>August 08, 2022</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://themehut.co/wp/movflx/wp-content/uploads/2022/08/blog_thumb01.jpg" alt="">
+                        <div class="footerArticle">
+                            <a href=""> Your Free Movie Streaming Purposes</a>
+                            <span>August 08, 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="footerHead">
+                    <h4>Follow Us</h4>
+                    <span></span>
+                </div>
+                <div class="footerBody">
+                    <ul>
+                        <a href="https://www.facebook.com/profile.php?id=100065584998736">
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                        </a>
+                        <a href="https://www.instagram.com/shahnazamiraslanova/">
+                            <li><i class="fa-brands fa-instagram"></i></li>
+
+                        </a>
+                        <a href="https://x.com/?lang=en&mx=2">
+                            <li><i class="fa-brands fa-twitter"></i></li>
+
+                        </a>
+                        <a href="https://www.youtube.com/">
+                            <li><i class="fa-brands fa-youtube"></i></li>
+
+                        </a>
+                    </ul>
+                    <input type="text" name="" id="" placeholder="Enter Email...">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="offcanvasWatchlist" class="offcanvas offcanvas-start" tabindex="-1" aria-labelledby="offcanvasWatchlistLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasWatchlistLabel">Watchlist</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body offcanvas-body-scroll">
+            <div id="watchListBody"></div>
+        </div>
+    </div>
+
+    <!-- Movie Details Modal -->
+    <div class="modal fade" id="movieDetailsModal" tabindex="-1" aria-labelledby="movieDetailsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="movieDetailsModalLabel">Movie Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img id="movieModalImage" src="" alt="" class="img-fluid mb-3">
+            <h4 id="movieModalName"></h4>
+            <p id="movieModalSummary"></p>
+            <ul id="movieModalInfo" class="list-unstyled">
+              <li><strong><i class="fa-regular fa-clock"></i>:</strong> <span id="movieModalRuntime"></span></li>
+              <li><strong><i class="fa-regular fa-star"></i>:</strong> <span id="movieModalRating"></span></li>
+              <li><strong><i class="fa-regular fa-calendar-days"></i>:</strong> <span id="movieModalEnded"></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="./appMovies.js"></script>
+    <script>
+      
+    </script>
+</body>
+</html>

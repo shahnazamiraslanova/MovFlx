@@ -1,0 +1,63 @@
+{
+    "movies":[
+    {
+        "id": "1",
+        "title": "Women’s World",
+        "imgUrl": "https://themehut.co/wp/movflx/wp-content/uploads/2022/08/ucm_poster09.jpg",
+        "description": "Activist Sheryl Kurland gifted domestic violence victims with new lipsticks and their moods suddenly shifted, one hundred thousand lipstick donations later, Kurland is far from finished",
+        "time": "90 min",
+        "category": "all-horror-comedy",
+        "imdb": "4",
+        "year": "2022"
+    },
+    {
+        "id": "2",
+        "title": "The Beachball",
+        "imgUrl": "https://themehut.co/wp/movflx/wp-content/uploads/2022/08/ucm_poster08.jpg",
+        "description": "The principle of the beachball tells us to hold the space for all perspectives. No one can see an entire beachball from one perspective. It's impossible.",
+        "time": "110 min",
+        "category": "all-action-comedy",
+        "imdb": "4.5",
+        "year": "2021"
+    },
+    {
+        "id": "3",
+        "title": "The Life Quotes",
+        "imgUrl": "https://themehut.co/wp/movflx/wp-content/uploads/2022/08/ucm_poster07.jpg",
+        "description": "These quotes cover a range of perspectives on life, from finding happiness and purpose to embracing challenges and creating your own path.",
+        "time": "120 min",
+        "category": "all-action",
+        "imdb": "4",
+        "year": "2020"
+    },
+    {
+        "id": "4",
+        "title": "Black Friday Super",
+        "imgUrl": "https://themehut.co/wp/movflx/wp-content/uploads/2022/08/ucm_poster10.jpg",
+        "description": "Get ready for the ultimate shopping extravaganza! This Black Friday, unleash the savings and grab unbeatable deals. Don't miss out on the super savings spree of the year!",
+        "time": "100 min",
+        "category": "all-action",
+        "imdb": "3.5",
+        "year": "2019"
+    },
+    {
+        "id": "5",
+        "title": "The Hikaru Night",
+        "imgUrl": "https://themehut.co/wp/movflx/wp-content/uploads/2022/08/ucm_poster06.jpg",
+        "description": "In a small, forgotten town, the night of the Hikaru festival brings with it an ancient legend. As the moon rises, a group of friends stumbles upon a hidden world of magic and mystery.",
+        "time": "90 min",
+        "category": "action-comedy",
+        "imdb": "4.5",
+        "year": "2021"
+    },
+    {
+        "id": "6",
+        "title": "The Easy Reach",
+        "imgUrl": "https://themehut.co/wp/movflx/wp-content/uploads/2022/08/ucm_poster04.jpg",
+        "description": "Introducing 'The Easy Reach' – the ultimate solution for effortless accessibility. Whether you’re organizing your home, office, or workspace, our innovative design ensures everything you need is always within easy reach. ",
+        "time": "100 min",
+        "category": "horror-comedy",
+        "imdb": "5",
+        "year": "2020"
+    }
+]}
